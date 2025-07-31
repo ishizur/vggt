@@ -9,5 +9,6 @@ docker run --name vggt --entrypoint bash -it --rm \
     -v ./demo_colmap.py:/app/demo_colmap.py \
     -v ./demo_viser.py:/app/demo_viser.py \
     -v ./visual_util.py:/app/visual_util.py \
+    -v ./model_weight:/app/model_weight \
     -p 7860:7860 \
     vggt
